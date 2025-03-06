@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/mn_Profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Thông Tin Cá Nhân" />
+    <item
+
+        android:id="@+id/mn_ManagerPD"
+        android:icon="@drawable/ic_home"
+        android:title="Quản Lí Sản Phẩm" />
+    <item
+        android:id="@+id/mn_emlloyee"
+        android:icon="@drawable/ic_category"
+        android:title="Quản Lí Nhân Viên" />
+
+    <item
+        android:id="@+id/mn_customer"
+        android:icon="@drawable/ic_promotion"
+        android:title="Quản Lí Khách Hàng" />
+
+    <item
+        android:id="@+id/mn_Revenue"
+        android:icon="@drawable/ic_revenue"
+        android:title="Thống Kê Doanh Thu" />
+    <item
+        android:id="@+id/mn_ManagerOrder"
+        android:icon="@drawable/ic_store"
+        android:title="Theo Dõi Đơn Hàng" />
+
+    <item
+        android:id="@+id/mn_Sell"
+        android:icon="@drawable/ic_order"
+        android:title="Đơn Hàng Chờ Xác Nhận" />
+
+    <item
+        android:id="@+id/mn_Exit"
+        android:icon="@drawable/ic_logout_24"
+        android:title="THOÁT" />
+
+</menu>

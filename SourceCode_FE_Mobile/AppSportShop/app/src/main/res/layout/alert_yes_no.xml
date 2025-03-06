@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#41000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_white_22_background"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/txt_popup_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xóa Sản Phẩm"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txt_popup_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có chắc muốn xóa sản phẩm không ?"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textSize="19dp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            >
+
+            <Button
+                android:id="@+id/YES"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Có"
+                android:layout_weight="0.5"
+                android:layout_marginRight="4dp"
+                android:backgroundTint="#FF5722"/>
+
+            <Button
+                android:id="@+id/NO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Không"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="0.5"
+                android:backgroundTint="#FF5722"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

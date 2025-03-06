@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgOrder"
+                android:layout_width="77dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:id="@+id/Madon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Mã Đơn Hàng: " />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_store" />
+
+                <TextView
+                    android:id="@+id/nameShopOrder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+
+                    android:text="Shop"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="19dp">
+
+                <TextView
+                    android:id="@+id/nameProductOrder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Giày Nike" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/shape_outline"
+                android:padding="3dp"
+                android:text="Miễn phí 7 ngày đổi trả hàng"
+                android:textColor="#F80000"
+                android:textSize="11dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:src="@drawable/freeship" />
+
+            <TextView
+                android:id="@+id/priceOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+
+                android:text="399.000đ"
+                android:textColor="#f57224"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="15dp"
+
+                android:orientation="horizontal">
+
+<!--                <TextView-->
+<!--                    android:id="@+id/giam"-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="18dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="Số Lượng : " />-->
+
+                <TextView
+                    android:id="@+id/quantiOrder"
+                    android:layout_width="30dp"
+                    android:layout_height="18dp"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:id="@+id/Huydon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:background="#FF5722"
+                    android:gravity="center"
+                    android:text="Hủy Đơn Mua" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

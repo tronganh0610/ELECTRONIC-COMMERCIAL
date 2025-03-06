@@ -1,0 +1,73 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android' version '1.8.10'
+}
+
+android {
+    namespace 'com.example.appsportshop'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.appsportshop"
+        minSdk 27
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+    implementation fileTree(dir: 'C:\\Users\\anhtr\\OneDrive\\Desktop\\DeTaiThucTap\\SourceCode_FE_Mobile\\AppSportShop\\app\\src\\main\\java\\com\\example\\appsportshop', include: ['*.aar', '*.jar'], exclude: [])
+    implementation 'com.android.car.ui:car-ui-lib:2.6.0'
+    //implementation fileTree(dir: 'D:\\not me\\trong anh\\DeTaiThucTap\\SourceCode_FE_Mobile\\AppSportShop\\app\\src\\main\\java\\com\\example\\appsportshop', include: ['*.aar', '*.jar'], exclude: [])
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //glider read img from url
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+//    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.1'
+    implementation 'com.squareup.picasso:picasso:2.8'
+    //slider
+//    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    //volley framework Call API
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.google.code.gson:gson:2.8.9'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+
+    //
+    // retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    implementation 'com.itextpdf:itext7-core:7.1.16'
+
+    //zalo
+    implementation("com.squareup.okhttp3:okhttp:4.6.0")
+    implementation("commons-codec:commons-codec:1.14")
+
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/checkCart"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content" />
+        />
+
+        <ImageView
+            android:id="@+id/imgCart"
+            android:layout_width="57dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/img" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_store" />
+
+                <TextView
+                    android:id="@+id/nameShopCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+
+                    android:text="Shop"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="19dp">
+
+                <TextView
+                    android:id="@+id/nameProductCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Giày Nike" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/shape_outline"
+                android:padding="3dp"
+                android:text="Miễn phí 7 ngày đổi trả hàng"
+                android:textColor="#F80000"
+                android:textSize="11dp" />
+
+
+
+            <TextView
+                android:id="@+id/priceCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+
+                android:text="399.000đ"
+                android:textColor="#f57224"
+                android:textSize="18dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/giam"
+                    android:layout_width="100dp"
+                    android:layout_height="18dp"
+                    android:gravity="center"
+                    android:text="Số Lượng : " />
+
+                <TextView
+                    android:id="@+id/quanti"
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:gravity="center"
+                    android:text="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Delete"
+                android:layout_width="195dp"
+                android:layout_height="34dp"
+                android:background="#FF5722"
+                android:gravity="center"
+                android:text="Xóa sản phẩm" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

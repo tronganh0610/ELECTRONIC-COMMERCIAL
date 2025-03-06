@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#41000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:background="@drawable/card_white_22_background"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cấp Tài Khoản Cho Nhân Viên "
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Nhập vào email của nhân viên "
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tvEmailNv"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:hint="Nhập vào email của nhân viên "
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/accept"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="0.5"
+                android:text="Cấp tài khoản"
+                android:backgroundTint="#FF5527"/>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="0.5"
+                android:backgroundTint="#FF5527"
+                android:text="Hủy" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

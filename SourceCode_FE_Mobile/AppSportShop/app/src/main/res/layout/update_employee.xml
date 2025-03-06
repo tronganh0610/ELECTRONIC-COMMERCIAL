@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#41000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="@drawable/bgtest"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/txt_popup_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật thông tin nhân viên"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txt_popup_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật thông tin cần thiết khi nhân viên yêu cầu"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:text="Mã nhân viên"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updateMaNV"
+            android:drawableLeft="@drawable/ic_people"
+            android:drawablePadding="10dp"
+            android:hint=""
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="@drawable/bg_edt"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+        </EditText>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:text="Họ Tên"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updatehoten"
+            android:drawableLeft="@drawable/ic_people"
+            android:drawablePadding="10dp"
+            android:hint="Họ tên"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="@drawable/bg_edt"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+        </EditText>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:text="Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updateEmail"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:hint="Họ tên"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="@drawable/bg_edt"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+        </EditText>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:text="Số điện thoại"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updateSdt"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="10dp"
+            android:hint="Họ tên"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="@drawable/bg_edt"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lưu thông tin"
+                android:layout_weight="0.5"
+                android:layout_marginRight="4dp"
+                android:backgroundTint="#FF5722"/>
+
+            <Button
+                android:id="@+id/huy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hủy"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="0.5"
+                android:backgroundTint="#FF5722"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

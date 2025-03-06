@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="56dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textColor="#444"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Vui lòng chọn số lượng sản phẩm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Chi tiết sản phẩm"
+            android:textColor="#444"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Chọn số lượng"
+        android:textColor="#444"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="79dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:id="@+id/reduce"
+            android:gravity="center"
+            android:text="-" />
+
+        <TextView
+
+            android:id="@+id/quantityCart"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:text="1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:id="@+id/increase"
+            android:gravity="center"
+            android:text="+" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TP HCM" />
+
+    <Button
+        android:id="@+id/submit_quanti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Thêm Vào Giỏ Hàng"
+        android:textColor="#fff"
+        android:backgroundTint="#FF5722"/>
+
+</LinearLayout>

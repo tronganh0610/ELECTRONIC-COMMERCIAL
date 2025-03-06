@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:font="@font/shopee1"
+        android:fontWeight="300"/>
+    <font
+        android:font="@font/shopee2"
+        android:fontWeight="300"/>
+    <font
+        android:font="@font/shopee3"
+        android:fontWeight="300"/>
+    <font
+        android:font="@font/shopee4"
+        android:fontWeight="300"/>
+    <font
+        android:font="@font/shopee5"
+        android:fontWeight="300"/>
+    <font
+        android:font="@font/shopee5"
+        android:fontWeight="900"/>
+
+</font-family>

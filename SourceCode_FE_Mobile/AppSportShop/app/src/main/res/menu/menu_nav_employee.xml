@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/mn_Profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Thông Tin Cá Nhân" />
+
+
+
+    <item
+        android:id="@+id/mn_ManagerOrder"
+        android:icon="@drawable/ic_store"
+        android:title="Theo Dõi Đơn Hàng" />
+
+    <item
+        android:id="@+id/mn_Sell"
+        android:icon="@drawable/ic_order"
+        android:title="Đơn Hàng Chờ Xác Nhận" />
+
+    <item
+        android:id="@+id/mn_Exit"
+        android:icon="@drawable/ic_logout_24"
+        android:title="THOÁT" />
+
+</menu>
