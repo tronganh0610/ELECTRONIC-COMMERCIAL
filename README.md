@@ -15,11 +15,11 @@ Chào mừng bạn đến với **ELECTRONIC-COMMERCIAL**, một nền tảng th
 **Chung: **
 - Xác thực người dùng (đăng nhập/đăng ký)\
 - Cập nhật ảnh đại diện, thông tin cá nhân
-**Dành cho khách hàng**
+Chức năng cho khách hàng
 - Duyệt và tìm kiếm sản phẩm
 - Giỏ hàng và hệ thống thanh toán
 - Tích hợp thanh toán bằng ZaloPay
-**Dành cho Admin**
+Chức năng cho Admin
 - Quản lý tài khoản nhân viên: cập nhật trạng thái của nhân viên
 - Quản lý sản phẩm : thêm, xóa, sửa các sản phẩm đăng bán
 - Quản lý đơn hàng : xem và cập nhật trạng thái của đơn hàng ( chưa xác nhận, đã xác nhận )
