@@ -12,14 +12,14 @@ Chào mừng bạn đến với **ELECTRONIC-COMMERCIAL**, một nền tảng th
 - Thiết kế đáp ứng cho các thiết bị di động Android 
 
 ## Tính năng
-+ Chung
+**+ Chung**
 - Xác thực người dùng (đăng nhập/đăng ký)\
 - Cập nhật ảnh đại diện, thông tin cá nhân
-+ Chức năng cho khách hàng
+**+ Chức năng cho khách hàng**
 - Duyệt và tìm kiếm sản phẩm
 - Giỏ hàng và hệ thống thanh toán
 - Tích hợp thanh toán bằng ZaloPay
-+ Chức năng cho Admin
+**+ Chức năng cho Admin**
 - Quản lý tài khoản nhân viên: cập nhật trạng thái của nhân viên
 - Quản lý sản phẩm : thêm, xóa, sửa các sản phẩm đăng bán
 - Quản lý đơn hàng : xem và cập nhật trạng thái của đơn hàng ( chưa xác nhận, đã xác nhận )
